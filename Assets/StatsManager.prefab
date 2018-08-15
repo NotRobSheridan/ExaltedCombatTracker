@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1710497988667318}
+  m_IsPrefabParent: 1
+--- !u!1 &1710497988667318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4027629209920118}
+  - component: {fileID: 114520073035868474}
+  m_Layer: 0
+  m_Name: StatsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4027629209920118
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1710497988667318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.009706, y: 1244.2009, z: -16.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114520073035868474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1710497988667318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b821d75f9dd44cff948fbaf8bc993bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxPersonal: 0
+  maxPeripheral: 0
+  maxWillpower: 0
+  maxPersonalFixed: 0
+  maxPeripheralFixed: 0
+  personalCapInput: {fileID: 0}
+  peripheralCapInput: {fileID: 0}
+  willpowerCapInput: {fileID: 0}
+  personalMotes: 0
+  peripheralMotes: 0
+  willpower: 0
+  committedPersonal: 0
+  commitedPeripheral: 0
+  initiative: 0
+  essence: 0
+  wounds: 0
+  onslaught: 0
+  turnCount: 0
+  personalInput: {fileID: 0}
+  peripheralInput: {fileID: 0}
+  willpowerInput: {fileID: 0}
+  committedPersonalInput: {fileID: 0}
+  committedPeripheralInput: {fileID: 0}
+  initiativeInput: {fileID: 0}
+  woundsInput: {fileID: 0}
+  onslaughtInput: {fileID: 0}
+  essenceInput: {fileID: 0}
+  size: 0
+  magnitude: 0
+  might: 0
+  battlegroupInitiative: 0
+  sizeInput: {fileID: 0}
+  magnitudeInput: {fileID: 0}
+  mightInput: {fileID: 0}
+  battlegroupInitiativeInput: {fileID: 0}
+  turnCountText: {fileID: 0}
+  combatCanvas: {fileID: 0}
+  statsCanvas: {fileID: 0}
+  battleGroupCanvas: {fileID: 0}
